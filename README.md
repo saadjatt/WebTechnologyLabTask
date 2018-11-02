@@ -12,6 +12,7 @@ Group Members are
 
 
 
-Lab1 Task Submitted.
+Lab1 Task Submitted.   (Email link error set now).
 
-Email link error set
+
+
