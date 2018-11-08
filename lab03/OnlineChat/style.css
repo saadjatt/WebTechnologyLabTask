@@ -1,0 +1,185 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	margin: 0px;
+}
+
+header{
+	background-color: #11c19a;
+	height: 70px;
+	position: relative;
+}
+
+h1{
+	text-align: center;
+	color: #ffffff;
+	padding: 15px;
+}
+
+.sidebar{
+	border: 1px solid rgba(29, 49, 91, .3);
+	position: relative;
+	display:inline-block;
+	height:450px;
+	width:150px;
+	margin-top: 10px;
+	margin-left:22px;
+    float:left;
+}
+
+
+.sidebar ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px ;
+
+		 
+}
+
+
+.sidebar li a{
+	color: #000000;
+	text-decoration: none;
+	padding: 5px;
+	font-size: 13px; 
+	display: block;
+}
+
+.sidebar li a:hover{
+	color: #ffffff;
+	background-color: #11c19a;
+}
+
+.sidebar li img{
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 3px; 
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+
+
+}
+
+.username{
+	display: inline-block;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 10px; 
+
+}
+
+.Chat{
+	float: right;
+	margin-top: 310px;
+	margin-right: 158px;
+
+}
+
+.chatbox{
+	border:1px solid rgba(29, 49, 91, .3);
+	position: relative;
+	display: inline-block;
+	bottom: 0px;
+	height: 300px;
+	width: 225px;
+	margin-right: 12px;
+
+}
+
+.active{
+	background-color: #11c19a;
+	color: #ffffff;
+	height: 27px;
+	text-align: center;
+	padding: 3px;
+
+}
+
+.body{
+	height: 237px;
+	width: 225; 
+}
+
+.body p{
+	padding-top: 10px;
+	padding-left: 7px;
+}
+
+.message{
+	height: 35px;
+	width: 255;
+	border-top: 1px solid #A9A9A9;
+}
+
+.message #p1{
+	display: inline-block;
+	font-size: 13px;
+	color: #A9A9A9;
+	padding-left: 7px;
+	padding-top: 8px
+}
+
+span{
+	background-color: #11c19a;
+	height: 22px;
+	width: 50px; 
+	position: relative;
+	float: right;
+	text-align: center;
+	margin-top: 6px;
+	margin-right: 10px;
+	border-radius: 8%;
+}
+
+span #p2{
+	color: #ffffff;
+	font-size: 13px;
+	padding: 3px;
+}
+
+
+.footer{
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 70px; 
+   background: #11c19a;
+}
+
+.link{
+	margin-right: 13px;
+	margin-top: 14px;
+}
+
+.link ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px; 
+	float: right; 
+}
+
+.link ul li{
+	float: left;
+}
+
+.link li img{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 1px solid #ffffff;
+	margin-right: 5px;
+}
+
+.link p{
+	color: #ffffff;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+

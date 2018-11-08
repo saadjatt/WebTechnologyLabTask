@@ -1,0 +1,38 @@
+
+div{
+  border: 1px solid rgba(29, 49, 91, .3);
+  padding: 6px;
+}
+
+h1 {
+   text-align: center;
+   text-transform: uppercase;
+   text-decoration: underline;
+   text-decoration-color: #ea8685;
+   letter-spacing: 3px;
+
+}
+
+p{
+	text-indent: 50px;
+	word-spacing: 10px;
+}
+
+p.big{
+	line-height: 1.6;
+}
+
+h2{
+	text-shadow:  3px 2px gray;
+	text-transform: uppercase;
+}
+
+div.second {
+	border: 1px solid rgba(29, 49, 91, .3);
+  padding: 6px;
+}
+
+p.small{
+	writing-mode: vertical-rl;;
+	   
+}
